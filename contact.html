@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Contact | Sayan Kelley Jr</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="resume.html">Resume</a>
+    <a class="active" href="contact.html">Contact</a>
+</nav>
+</header>
+
+<section>
+<h1>Contact Me</h1>
+
+<form class="contact-form" onsubmit="alert('Message submitted!'); return false;">
+    <label>Name</label>
+    <input type="text" required>
+
+    <label>Email</label>
+    <input type="email" required>
+
+    <label>Message</label>
+    <textarea required></textarea>
+
+    <button type="submit" class="button">Send</button>
+</form>
+</section>
+
+<!-- CHATBOT -->
+<div id="chatbot-button">💬</div>
+<div id="chatbot-window">
+    <div id="chatbot-header">Chat with Me</div>
+    <div id="chatbot-messages"></div>
+    <div id="chatbot-input-area">
+        <input type="text" id="chatbot-input" placeholder="Ask me anything...">
+        <button id="chatbot-send">Send</button>
+    </div>
+</div>
+
+<script src="chatbot.js"></script>
+</body>
+</html>

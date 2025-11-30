@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Resume | Sayan Kelley Jr</title>
+<link rel="stylesheet" href="style.css">
+
+<style>
+.resume-container {
+    background:white;
+    padding:40px;
+    border-radius:10px;
+    color:black;
+    max-width:800px;
+    margin:auto;
+    box-shadow:0 0 15px #0ff;
+}
+.resume-container h2 {
+    color:#00CED1;
+    border-bottom:2px solid #00CED1;
+    padding-bottom:4px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a class="active" href="resume.html">Resume</a>
+    <a href="contact.html">Contact</a>
+</nav>
+</header>
+
+<section>
+<h1 style="text-align:center;">My Resume</h1>
+
+<p style="text-align:center;">
+    <a href="resume.pdf" class="button" download>Download Resume (PDF)</a>
+</p>
+
+<div class="resume-container">
+
+<h1>Sayan Kelley Jr</h1>
+<p>Lanham, MD • (240) 603-5519 • sayankelley35@gmail.com</p>
+
+<h2>Professional Summary</h2>
+<p>Motivated Computer Technology student with hands-on IT experience…</p>
+
+<h2>Education</h2>
+<p>Bowie University — B.S. in Computer Technology (GPA 3.3)</p>
+
+<h2>Technical Skills</h2>
+<ul>
+<li>Diagnostics & repair</li>
+<li>Networking basics</li>
+<li>Windows / macOS</li>
+</ul>
+
+<h2>Work Experience</h2>
+<p><strong>Rent-A-Center</strong> — IT Assistance & Troubleshooting</p>
+<p><strong>UPS</strong> — Technical Support for Scanners</p>
+
+</div>
+</section>
+
+<!-- CHATBOT -->
+<div id="chatbot-button">💬</div>
+<div id="chatbot-window">
+    <div id="chatbot-header">Chat with Me</div>
+    <div id="chatbot-messages"></div>
+    <div id="chatbot-input-area">
+        <input type="text" id="chatbot-input" placeholder="Ask me anything...">
+        <button id="chatbot-send">Send</button>
+    </div>
+</div>
+
+<script src="chatbot.js"></script>
+</body>
+</html>
